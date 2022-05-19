@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <!--persistence-unit
+            name：Persistence unit name
+            transaction-type：The way transaction are managed
+                    JTA：Distributed Transaction Management
+                    RESOURCE_LOCAL：local transaction management
+    -->
+    <persistence-unit name="hibernateJPA" transaction-type="RESOURCE_LOCAL">
+        <!-- Implementation of jpa -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- POJO classes that need to be ORMed -->
+        <class>com.awesome.pojo.Customer</class>
+
+        <!-- Optional configuration: configuration information of the jpa implementer -->
+        <properties>
+            <!-- database configuration
+                javax.persistence.jdbc.user
+                javax.persistence.jdbc.password
+                javax.persistence.jdbc.driver
+                javax.persistence.jdbc.url
+            -->
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="123123"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
+
+            <!--Configuration information of the jpa implementer (hibernate)
+                show sql: false|true
+                Automatically create database tables: hibernate.hbm2ddl.auto
+                        create, update, none
+            -->
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+
+        </properties>
+    </persistence-unit>
+
+
+
+    <persistence-unit name="openJpa" transaction-type="RESOURCE_LOCAL">
+        <!--Implementation of jpa -->
+        <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+
+        <!-- Specify which entities need to be persisted -->
+        <class>com.awesome.pojo.Customer</class>
+        <!-- Optional configuration: configuration information of the jpa implementer -->
+        <properties>
+            <!-- database configuration
+                javax.persistence.jdbc.user
+                javax.persistence.jdbc.password
+                javax.persistence.jdbc.driver
+                javax.persistence.jdbc.url
+            -->
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="123123"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
+
+            <!--Configuration information of the jpa implementer (openjpa)-->
+            <!-- Database tables can be automatically generated -->
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>

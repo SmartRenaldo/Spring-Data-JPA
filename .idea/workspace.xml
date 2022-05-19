@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="" />
+    <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -27,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="29L3JJ7Mr46MGkmbBPJgyH68ztn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,15 +44,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/META-INF" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.HibernateTest.testRHql">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\springdata\01_jpa_hibernate\src\main\resources\META-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JpaTest.testD">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -56,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01_jpa_hibernate" />
       <extension name="coverage">
         <pattern>
@@ -65,14 +80,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.HibernateTest" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
       <option name="METHOD_NAME" value="testD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01_jpa_hibernate" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +96,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.HibernateTest" />
-      <option name="METHOD_NAME" value="testR" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
+      <option name="METHOD_NAME" value="testQ" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testRHql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01_jpa_hibernate" />
       <extension name="coverage">
         <pattern>
@@ -97,40 +112,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.HibernateTest" />
-      <option name="METHOD_NAME" value="testRHql" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest.testRLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.HibernateTest" />
-      <option name="METHOD_NAME" value="testRLoad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.HibernateTest" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
       <option name="METHOD_NAME" value="testU" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTest.testU_JPQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_jpa_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
+      <option name="METHOD_NAME" value="testU_JPQL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTest.testU_SQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_jpa_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
+      <option name="METHOD_NAME" value="testU_SQL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HibernateTest.testRHql" />
-        <item itemvalue="JUnit.HibernateTest.testD" />
-        <item itemvalue="JUnit.HibernateTest.testU" />
-        <item itemvalue="JUnit.HibernateTest.testRLoad" />
-        <item itemvalue="JUnit.HibernateTest.testR" />
+        <item itemvalue="JUnit.JpaTest.testD" />
+        <item itemvalue="JUnit.JpaTest.testU_SQL" />
+        <item itemvalue="JUnit.JpaTest.testU_JPQL" />
+        <item itemvalue="JUnit.JpaTest.testU" />
+        <item itemvalue="JUnit.JpaTest.testQ" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +169,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652878467087</updated>
-      <workItem from="1652878468219" duration="3585000" />
+      <workItem from="1652878468219" duration="9557000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
