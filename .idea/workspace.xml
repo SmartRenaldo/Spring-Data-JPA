@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/src/test/java/com/awesome/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/src/test/java/com/awesome/JpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="D:\IdeaProjects\springdata\01_jpa_hibernate\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.testD">
+  <component name="RunManager" selected="JUnit.JpaTest.testCache">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -67,6 +66,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01_jpa_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awesome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.awesome" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
+      <option name="METHOD_NAME" value="testCache" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testStatus02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01_jpa_hibernate" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome" />
       <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testQ" />
+      <option name="METHOD_NAME" value="testStatus02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testStatus03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01_jpa_hibernate" />
       <extension name="coverage">
         <pattern>
@@ -113,23 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome" />
       <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testU" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpaTest.testU_JPQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testU_JPQL" />
+      <option name="METHOD_NAME" value="testStatus03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JpaTest.testCache" />
+        <item itemvalue="JUnit.JpaTest.testStatus03" />
+        <item itemvalue="JUnit.JpaTest.testStatus02" />
         <item itemvalue="JUnit.JpaTest.testD" />
         <item itemvalue="JUnit.JpaTest.testU_SQL" />
-        <item itemvalue="JUnit.JpaTest.testU_JPQL" />
-        <item itemvalue="JUnit.JpaTest.testU" />
-        <item itemvalue="JUnit.JpaTest.testQ" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652878467087</updated>
-      <workItem from="1652878468219" duration="9557000" />
+      <workItem from="1652878468219" duration="9778000" />
+      <workItem from="1652953009138" duration="11000" />
+      <workItem from="1653037909879" duration="2494000" />
     </task>
     <servers />
   </component>
@@ -186,5 +187,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
