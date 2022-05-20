@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/src/test/java/com/awesome/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/src/test/java/com/awesome/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,7 +50,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/META-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_springdata_jpa/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,10 +60,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\springdata\02_springdata_jpa\src\main\resources" />
       <recent name="D:\IdeaProjects\springdata\01_jpa_hibernate\src\main\resources\META-INF" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\springdata\02_springdata_jpa\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.awesome.test" />
+      <recent name="com.awesome.repositories" />
+      <recent name="com.awesome.pojo" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.testCache">
+  <component name="RunManager" selected="JUnit.JPQLQueryByExampleTest.test02">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -70,81 +84,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
+    <configuration name="JPQLMethodNameTest.testDeleteByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_springdata_jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
+          <option name="PATTERN" value="com.awesome.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testCache" />
+      <option name="PACKAGE_NAME" value="com.awesome.test" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.JPQLMethodNameTest" />
+      <option name="METHOD_NAME" value="testDeleteByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
+    <configuration name="JPQLMethodNameTest.testExistsByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_springdata_jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
+          <option name="PATTERN" value="com.awesome.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testD" />
+      <option name="PACKAGE_NAME" value="com.awesome.test" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.JPQLMethodNameTest" />
+      <option name="METHOD_NAME" value="testExistsByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testStatus02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
+    <configuration name="JPQLMethodNameTest.testFindByNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_springdata_jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
+          <option name="PATTERN" value="com.awesome.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testStatus02" />
+      <option name="PACKAGE_NAME" value="com.awesome.test" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.JPQLMethodNameTest" />
+      <option name="METHOD_NAME" value="testFindByNameLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testStatus03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
+    <configuration name="JPQLQueryByExampleTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_springdata_jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
+          <option name="PATTERN" value="com.awesome.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testStatus03" />
+      <option name="PACKAGE_NAME" value="com.awesome.test" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.JPQLQueryByExampleTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testU_SQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01_jpa_hibernate" />
+    <configuration name="JPQLQueryByExampleTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02_springdata_jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.*" />
+          <option name="PATTERN" value="com.awesome.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.awesome" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.JpaTest" />
-      <option name="METHOD_NAME" value="testU_SQL" />
+      <option name="PACKAGE_NAME" value="com.awesome.test" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.JPQLQueryByExampleTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.testCache" />
-        <item itemvalue="JUnit.JpaTest.testStatus03" />
-        <item itemvalue="JUnit.JpaTest.testStatus02" />
-        <item itemvalue="JUnit.JpaTest.testD" />
-        <item itemvalue="JUnit.JpaTest.testU_SQL" />
+        <item itemvalue="JUnit.JPQLQueryByExampleTest.test02" />
+        <item itemvalue="JUnit.JPQLQueryByExampleTest.test01" />
+        <item itemvalue="JUnit.JPQLMethodNameTest.testFindByNameLike" />
+        <item itemvalue="JUnit.JPQLMethodNameTest.testDeleteByName" />
+        <item itemvalue="JUnit.JPQLMethodNameTest.testExistsByName" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +184,7 @@
       <updated>1652878467087</updated>
       <workItem from="1652878468219" duration="9778000" />
       <workItem from="1652953009138" duration="11000" />
-      <workItem from="1653037909879" duration="2494000" />
+      <workItem from="1653037909879" duration="15292000" />
     </task>
     <servers />
   </component>
