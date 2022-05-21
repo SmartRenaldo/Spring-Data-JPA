@@ -11,6 +11,8 @@
     <modules>
         <module>01_jpa_hibernate</module>
         <module>02_springdata_jpa</module>
+        <module>03_springdata_jpa_querydsl</module>
+        <module>04_springdata_jpa_specifications</module>
     </modules>
 
     <properties>

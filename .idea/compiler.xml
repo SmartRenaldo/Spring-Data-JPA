@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="04_springdata_jpa_specifications" />
+        <module name="03_springdata_jpa_querydsl" />
         <module name="01_jpa_hibernate" />
         <module name="02_springdata_jpa" />
       </profile>
