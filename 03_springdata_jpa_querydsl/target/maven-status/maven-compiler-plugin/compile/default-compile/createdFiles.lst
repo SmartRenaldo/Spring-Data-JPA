@@ -1,0 +1,4 @@
+com\awesome\pojo\Customer.class
+com\awesome\config\ApplicationConfig.class
+com\awesome\repositories\CustomerRepositoryQueryDSL.class
+com\awesome\pojo\QCustomer.class
