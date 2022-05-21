@@ -21,6 +21,7 @@ public class JPQLQueryByExampleTest {
     @Autowired
     CustomerRepositoryQueryByExample repository;
 
+    // find all customers that name is "King" and do not care about address
     @Test
     public void test01() {
         Customer customer = new Customer();
@@ -37,11 +38,13 @@ public class JPQLQueryByExampleTest {
         customer.setName("I");
         customer.setAddress("Beijing");
         ExampleMatcher matcher = ExampleMatcher.matching()
+                //ignore address attribute
                 .withIgnorePaths("address")
 //                .withIgnoreCase("name")
 //                .withStringMatcher(ExampleMatcher.StringMatcher.CONTAINING)   works for all fields
-//                .withMatcher("name", m -> m.contains())
-                .withMatcher("name", ExampleMatcher.GenericPropertyMatcher::contains).withIgnoreCase();
+//                .withMatcher("name", m -> m.contains())   only works for "name", "%I%"
+                .withMatcher("name",
+                        ExampleMatcher.GenericPropertyMatcher::contains).withIgnoreCase(); //"%I%"
         Example<Customer> example = Example.of(customer, matcher);
         Iterable<Customer> customers = repository.findAll(example);
         System.out.println(customers);

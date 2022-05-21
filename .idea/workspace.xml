@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_springdata_jpa/src/test/java/com/awesome/test/JPQLQueryByExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_springdata_jpa/src/test/java/com/awesome/test/JPQLQueryByExampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +70,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.JPQLQueryByExampleTest.test02">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JPQLMethodNameTest.testDeleteByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02_springdata_jpa" />
       <extension name="coverage">
@@ -184,7 +170,8 @@
       <updated>1652878467087</updated>
       <workItem from="1652878468219" duration="9778000" />
       <workItem from="1652953009138" duration="11000" />
-      <workItem from="1653037909879" duration="15292000" />
+      <workItem from="1653037909879" duration="15409000" />
+      <workItem from="1653103833522" duration="302000" />
     </task>
     <servers />
   </component>
