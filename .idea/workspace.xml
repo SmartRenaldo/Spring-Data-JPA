@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/src/main/java/com/awesome/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/pojo/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/pojo/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/repositories/ClientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/test-classes/com/awesome/test/OptimisticLockingTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +110,7 @@
       <workItem from="1653103833522" duration="12861000" />
       <workItem from="1653127166586" duration="15485000" />
       <workItem from="1653200068010" duration="7161000" />
-      <workItem from="1653218939871" duration="3622000" />
+      <workItem from="1653218939871" duration="4503000" />
     </task>
     <servers />
   </component>

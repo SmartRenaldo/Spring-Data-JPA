@@ -12,7 +12,6 @@
         <module name="07_springdata_jpa_many_to_many" />
         <module name="08_springdata_jpa_optimistic_locking" />
         <module name="09_springdata_jpa_audit" />
-        <module name="10_springdata_jpa_principle" />
         <module name="04_springdata_jpa_specifications" />
         <module name="06_springdata_jpa_one_to_many" />
         <module name="02_springdata_jpa" />
@@ -20,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="06_springdata_jpa_one_to_many (1)" target="8" />
+      <module name="10_springdata_jpa_springboot_intereation" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
