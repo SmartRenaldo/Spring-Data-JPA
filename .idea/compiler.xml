@@ -9,6 +9,7 @@
         <module name="05_springdata_jpa_one_to_one" />
         <module name="04_springdata_jpa_specifications" />
         <module name="03_springdata_jpa_querydsl" />
+        <module name="06_springdata_jpa_one_to_many" />
         <module name="01_jpa_hibernate" />
         <module name="02_springdata_jpa" />
       </profile>

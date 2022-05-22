@@ -21,6 +21,6 @@
         <property name="dialect">org.hibernate.dialect.MySQL57Dialect</property>
 
         <!-- Specify which pojos need ORM mapping -->
-        <mapping class="com.awesome.pojo.Customer"></mapping>
+        <mapping class="com.awesome.pojo.Student"></mapping>
     </session-factory>
 </hibernate-configuration>

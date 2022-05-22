@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05_springdata_jpa_one_to_one/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/05_springdata_jpa_multi_table/src/main/java/com/awesome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06_springdata_jpa_one_to_many" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -77,7 +79,7 @@
       <recent name="com.awesome.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OneToOneTest.testD">
+  <component name="RunManager" selected="JUnit.ManyToOneTest.testD">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToOneTest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="05_springdata_jpa_one_to_one" />
+    <configuration name="ManyToOneTest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.awesome.test.*" />
@@ -98,15 +100,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome.test" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.test.OneToOneTest" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.ManyToOneTest" />
       <option name="METHOD_NAME" value="testC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToOneTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="05_springdata_jpa_one_to_one" />
+    <configuration name="ManyToOneTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.awesome.test.*" />
@@ -114,15 +116,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome.test" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.test.OneToOneTest" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.ManyToOneTest" />
       <option name="METHOD_NAME" value="testD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToOneTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="05_springdata_jpa_one_to_one" />
+    <configuration name="ManyToOneTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.awesome.test.*" />
@@ -130,15 +132,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome.test" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.test.OneToOneTest" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.ManyToOneTest" />
       <option name="METHOD_NAME" value="testR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToOneTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="05_springdata_jpa_one_to_one" />
+    <configuration name="OneToManyTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.awesome.test.*" />
@@ -146,15 +148,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome.test" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.test.OneToOneTest" />
-      <option name="METHOD_NAME" value="testU" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.OneToManyTest" />
+      <option name="METHOD_NAME" value="testD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryDSLTest.testNativeSQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03_springdata_jpa_querydsl" />
+    <configuration name="OneToManyTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.awesome.test.*" />
@@ -162,27 +164,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.awesome.test" />
-      <option name="MAIN_CLASS_NAME" value="com.awesome.test.QueryDSLTest" />
-      <option name="METHOD_NAME" value="testNativeSQL" />
+      <option name="MAIN_CLASS_NAME" value="com.awesome.test.OneToManyTest" />
+      <option name="METHOD_NAME" value="testR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.QueryDSLTest.testNativeSQL" />
-      <item itemvalue="JUnit.OneToOneTest.testC" />
-      <item itemvalue="JUnit.OneToOneTest.testR" />
-      <item itemvalue="JUnit.OneToOneTest.testD" />
-      <item itemvalue="JUnit.OneToOneTest.testU" />
+      <item itemvalue="JUnit.OneToManyTest.testR" />
+      <item itemvalue="JUnit.OneToManyTest.testD" />
+      <item itemvalue="JUnit.ManyToOneTest.testC" />
+      <item itemvalue="JUnit.ManyToOneTest.testR" />
+      <item itemvalue="JUnit.ManyToOneTest.testD" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OneToOneTest.testD" />
-        <item itemvalue="JUnit.OneToOneTest.testC" />
-        <item itemvalue="JUnit.OneToOneTest.testU" />
-        <item itemvalue="JUnit.OneToOneTest.testR" />
-        <item itemvalue="JUnit.QueryDSLTest.testNativeSQL" />
+        <item itemvalue="JUnit.ManyToOneTest.testD" />
+        <item itemvalue="JUnit.ManyToOneTest.testR" />
+        <item itemvalue="JUnit.ManyToOneTest.testC" />
+        <item itemvalue="JUnit.OneToManyTest.testD" />
+        <item itemvalue="JUnit.OneToManyTest.testR" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +200,7 @@
       <workItem from="1652953009138" duration="11000" />
       <workItem from="1653037909879" duration="15409000" />
       <workItem from="1653103833522" duration="12861000" />
-      <workItem from="1653127166586" duration="6359000" />
+      <workItem from="1653127166586" duration="14954000" />
     </task>
     <servers />
   </component>
