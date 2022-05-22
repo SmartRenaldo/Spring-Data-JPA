@@ -5,13 +5,14 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
-@Table(name = "t_course")
-@Setter
+@Table(name = "t_female")
 @Getter
+@Setter
 @NoArgsConstructor
-public class Course {
+public class Female {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -20,27 +21,23 @@ public class Course {
     @Column(name = "name")
     private String name;
 
-    public Course(String name) {
+    public Female(String name) {
         this.name = name;
     }
 
-    public Course(String name, Student student) {
+    public Female(Long id, String name) {
+        this.id = id;
         this.name = name;
-        this.student = student;
     }
-
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name="sid")
-    private Student student;
 
     @Override
     public String toString() {
-        return "Course{" +
+        return "Female{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", studentID=" + student.getId() +
-                ", studentName=" + student.getName() +
-                ", studentAge=" + student.getAge() +
                 '}';
     }
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    private List<Male> males;
 }

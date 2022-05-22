@@ -10,7 +10,7 @@
         <!-- Implementation of jpa -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- POJO classes that need to be ORMed -->
-        <class>com.awesome.pojo.Student</class>
+        <class>com.awesome.pojo.Male</class>
 
         <!-- Optional configuration: configuration information of the jpa implementer -->
         <properties>
@@ -44,7 +44,7 @@
         <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
 
         <!-- Specify which entities need to be persisted -->
-        <class>com.awesome.pojo.Student</class>
+        <class>com.awesome.pojo.Male</class>
         <!-- Optional configuration: configuration information of the jpa implementer -->
         <properties>
             <!-- database configuration

@@ -1,14 +1,18 @@
 package com.awesome.pojo;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "t_student")
-@Data
-public class Student {
+@Table(name = "t_male")
+@Getter
+@Setter
+@NoArgsConstructor
+public class Male {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -17,8 +21,9 @@ public class Student {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "age")
-    private int age;
+    public Male(String name) {
+        this.name = name;
+    }
 
     /**
      * cascade: set association
@@ -30,7 +35,16 @@ public class Student {
      *                the value equles to the other party's field name for this attribute
      * default FetchType: LAZY
      */
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name="sid")
-    private List<Course> courses;
+    @ManyToMany(cascade = CascadeType.ALL)
+    /**
+     * maintain middle table by JoinTable
+     * joinColumns: set this table's foreign key
+     * inverseJoinColumns: set associated table's foreign key
+     */
+    @JoinTable(
+            name = "t_male_female",
+            joinColumns = {@JoinColumn(name = "mid")},
+            inverseJoinColumns = {@JoinColumn(name = "fid")}
+    )
+    private List<Female> females;
 }

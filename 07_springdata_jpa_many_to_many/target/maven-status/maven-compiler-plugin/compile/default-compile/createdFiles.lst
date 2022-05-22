@@ -1,0 +1,4 @@
+com\awesome\repositories\MaleRepository.class
+com\awesome\pojo\Male.class
+com\awesome\config\ApplicationConfig.class
+com\awesome\pojo\Female.class
