@@ -8,8 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_jpa_hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_springdata_jpa_one_to_many/src/main/java/com/awesome/pojo/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_springdata_jpa_one_to_many/src/main/java/com/awesome/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_springdata_jpa_one_to_many/src/main/java/com/awesome/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_springdata_jpa_one_to_many/src/main/java/com/awesome/repositories/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_springdata_jpa_one_to_many/src/test/java/com/awesome/test/OneToManyTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06_springdata_jpa_one_to_many" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07_springdata_jpa_many_to_many" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -80,13 +82,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ManyToOneTest.testD">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +99,7 @@
       <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.test.*" />
+          <option name="PATTERN" value="com.awesome.test.ManyToOneTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,7 +115,7 @@
       <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.test.*" />
+          <option name="PATTERN" value="com.awesome.test.ManyToOneTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +131,7 @@
       <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.test.*" />
+          <option name="PATTERN" value="com.awesome.test.ManyToOneTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,7 +147,7 @@
       <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.test.*" />
+          <option name="PATTERN" value="com.awesome.test.ManyToOneTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,7 +163,7 @@
       <module name="06_springdata_jpa_one_to_many" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.awesome.test.*" />
+          <option name="PATTERN" value="com.awesome.test.ManyToOneTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,7 +204,7 @@
       <workItem from="1652953009138" duration="11000" />
       <workItem from="1653037909879" duration="15409000" />
       <workItem from="1653103833522" duration="12861000" />
-      <workItem from="1653127166586" duration="14954000" />
+      <workItem from="1653127166586" duration="15485000" />
     </task>
     <servers />
   </component>

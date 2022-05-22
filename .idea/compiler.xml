@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="05_springdata_jpa_one_to_one" />
-        <module name="04_springdata_jpa_specifications" />
         <module name="03_springdata_jpa_querydsl" />
-        <module name="06_springdata_jpa_one_to_many" />
         <module name="01_jpa_hibernate" />
+        <module name="07_springdata_jpa_many_to_many" />
+        <module name="04_springdata_jpa_specifications" />
+        <module name="06_springdata_jpa_one_to_many" />
         <module name="02_springdata_jpa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="06_springdata_jpa_one_to_many (1)" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

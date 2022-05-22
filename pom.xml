@@ -15,6 +15,7 @@
         <module>04_springdata_jpa_specifications</module>
         <module>05_springdata_jpa_one_to_one</module>
         <module>06_springdata_jpa_one_to_many</module>
+        <module>07_springdata_jpa_many_to_many</module>
     </modules>
 
     <properties>
