@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/02_springdata_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/06_springdata_jpa_one_to_many/pom.xml" />
         <option value="$PROJECT_DIR$/07_springdata_jpa_many_to_many/pom.xml" />
+        <option value="$PROJECT_DIR$/09_springdata_jpa_audit/pom.xml" />
+        <option value="$PROJECT_DIR$/10_springdata_jpa_principle/pom.xml" />
       </list>
     </option>
   </component>
