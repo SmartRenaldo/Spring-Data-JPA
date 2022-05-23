@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba1a16b-436c-4c9b-910a-a56f7e0c54ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/src/main/java/com/awesome/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/config/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/pojo/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/pojo/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/com/awesome/repositories/ClientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_springdata_jpa_principle/target/test-classes/com/awesome/test/OptimisticLockingTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +47,10 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,6 +65,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.awesome.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\springdata\08_springdata_jpa_optimistic_locking\src\main\java\com\awesome" />
       <recent name="D:\IdeaProjects\springdata\08_springdata_jpa_optimistic_locking\src\main\resources" />
@@ -78,19 +80,28 @@
       <recent name="D:\IdeaProjects\springdata\02_springdata_jpa\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.awesome.pojo" />
       <recent name="com.awesome.repositories" />
       <recent name="com.awesome.test" />
-      <recent name="com.awesome.pojo" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="10_springdata_jpa_springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.awesome.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +121,8 @@
       <workItem from="1653103833522" duration="12861000" />
       <workItem from="1653127166586" duration="15485000" />
       <workItem from="1653200068010" duration="7161000" />
-      <workItem from="1653218939871" duration="4503000" />
+      <workItem from="1653218939871" duration="7576000" />
+      <workItem from="1653274425178" duration="2287000" />
     </task>
     <servers />
   </component>

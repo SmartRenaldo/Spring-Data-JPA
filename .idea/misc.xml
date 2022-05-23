@@ -10,10 +10,12 @@
         <option value="$PROJECT_DIR$/07_springdata_jpa_many_to_many/pom.xml" />
         <option value="$PROJECT_DIR$/09_springdata_jpa_audit/pom.xml" />
         <option value="$PROJECT_DIR$/10_springdata_jpa_principle/pom.xml" />
+        <option value="$PROJECT_DIR$/10_springdata_jpa_springboot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/10_springdata_jpa_springboot_integration/pom.xml" />
         <option value="$PROJECT_DIR$/10_springdata_jpa_springboot_intereation/pom.xml" />
       </set>
     </option>
